@@ -304,7 +304,6 @@ th {
 }
 
 @font-face {
-    font-family: 'Glyphicons Halflings', sans-serif;
     src: url(../fonts/glyphicons-halflings-regular.eot);
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
@@ -313,7 +312,7 @@ th {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings' sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -4286,7 +4285,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4373,7 +4372,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5124,7 +5122,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
